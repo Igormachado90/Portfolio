@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #ffffff;
+    /* margin: 0px; */
+}
+
+.header-container {
+    background-color: #171717;
+    border-radius: 50px;
+    height: 86px;
+    margin: 0px 40px;
+    border: 1px white solid;
+    padding: 0px 10px;    
+}
+
+.header_navigation {
+    margin: 10px 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_navigation .header_botao {
+    display: flex;    
+    gap: 30px;
+}
+
+.header_navigation .header_botao .Logo {
+    background-color: blue;
+    width: 70px; 
+    padding: 20px 40px; 
+    border-radius: 60px; 
+}
+
+.header_navigation .botao {
+    border-radius: 60px;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 700;
+}
+
+.header_navigation .botao a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.botao:hover {
+    background-color: #83e125;
+}
+
+.main-container {
+    background-color: #f0792467;
+    margin: 10px 40px;
+    height: 607px;
+}
+
+.main_texto {
+    margin: auto;
+
+}
+
+.main_quadro {
+    margin: auto;
+    width: 85px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.main_quadro p {
+    margin: 10px 0px;
+}
+
+h1 {
+    width: 260px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+h1 > span {
+    color: #83e125;
+}
+
+.logo-e-bolinho {
+    background-color: #00000041;
+    width: 380px;
+    margin: auto;
+}
+
+.figure {
+    background-color: #0000007a;
+    height: 393px;
+}
