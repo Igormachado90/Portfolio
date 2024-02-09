@@ -1,28 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+}
 
 body {
     background-color: #ffffff;
-    /* margin: 0px; */
+    font-family: "Urbanist", sans-serif;
 }
 
 .header-container {
-    background-color: #171717;
-    border-radius: 50px;
-    height: 86px;
-    margin: 0px 40px;
-    border: 1px white solid;
+    margin: 20px 40px;
     padding: 0px 10px;    
 }
 
 .header_navigation {
-    margin: 10px 60px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-around;
+    margin: 15px 60px;  
+    padding: 10px 0px;
 }
 
 .header_navigation .header_botao {
-    display: flex;    
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;   
     gap: 30px;
 }
 
@@ -33,63 +32,100 @@ body {
     border-radius: 60px; 
 }
 
-.header_navigation .botao {
+.header_navigation .header_botao .botao {
     border-radius: 60px;
-    padding: 20px 40px;
+    /* padding: 20px 40px; */
     font-size: 20px;
+    /* font-family: "Urbanist", sans-serif; */
+    font-weight: 700;
+}
+
+.header_botao .botao .nav_list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header_botao .botao .nav_item a {
+    text-decoration: none;
+    color: #171717;
+}
+
+.main-container {
+    margin: 10px 0px;
+    height: 607px;
+}
+
+.main_nome-logo {
+    background-color: #9fdeabcd;
+}
+
+.main_texto-logo {
+    margin: auto;
+    margin: 0px 33px;
+    height: 460px;
+    padding: 75px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1,h2 {
+    width: 473px;
+    margin: auto;
+    padding: 9px 0;
+    font-size: 40px;
+}
+
+.main_quadro p {
+    margin: 10px 10px;
+    width: 473px;
+}
+
+h1.titulo {
+    padding-top: 2px;
+}
+
+h2.subtitulo {
+    margin: auto;
+    padding: 9px 0 2px 0px;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+h1 > span {
+    color: #0a9505;
+}
+
+.logo {
+    width: 320px;
+    height: 320px;
+}
+
+div.logo img{
+    border-radius: 100%;
+    width: 100%;
+}
+
+.main_botao {
+   background-color: #0a9505;
+   border-radius: 20px;
+   height: 22px;
+}
+
+.main_botao a {
+    padding: 0px 20px;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
     font-family: "Urbanist", sans-serif;
     font-weight: 700;
 }
 
-.header_navigation .botao a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.botao:hover {
-    background-color: #83e125;
-}
-
-.main-container {
-    background-color: #f0792467;
-    margin: 10px 40px;
-    height: 607px;
-}
-
-.main_texto {
-    margin: auto;
-
-}
-
-.main_quadro {
-    margin: auto;
-    width: 85px;
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 50px;
-}
-
-.main_quadro p {
-    margin: 10px 0px;
-}
-
-h1 {
-    width: 260px;
-    margin: auto;
-    padding: 40px 0;
-}
-
-h1 > span {
-    color: #83e125;
-}
-
-.logo-e-bolinho {
-    background-color: #00000041;
-    width: 380px;
-    margin: auto;
-}
-
-.figure {
-    background-color: #0000007a;
-    height: 393px;
+.main-icon {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
 }
