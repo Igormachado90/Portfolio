@@ -1,0 +1,48 @@
+.header_navigation {
+    margin: 10px 30px;
+    padding: 10px 0px;
+}
+
+.header_navigation .header_botao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.header_navigation .header_botao .Logo {
+    width: 8rem;
+    border-radius: 60px;
+}
+
+.header_navigation .header_botao .botao {
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+}
+
+@media (max-width: 700px) {
+    .header_navigation .header_botao .botao {
+        display: none;
+    }
+
+    .header_botao .nav_menu {
+        display: block;
+    }
+}
+
+.header_botao .nav_menu {
+    display: none;
+}
+
+.header_botao .botao .nav_list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header_botao .botao .nav_item a {
+    text-decoration: none;
+    color: #171717;
+}

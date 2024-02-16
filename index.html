@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/estlio.css">
+    <link rel="stylesheet" href="CSS/header.css">
     <title>Portfiolo</title>
 </head>
 
@@ -13,7 +14,9 @@
         <header class="header-container">
             <nav class="header_navigation">
                 <div class="header_botao">
-                    <div class="Logo"></div>
+                    
+                        <img src="image/Logo-ig_mc.png" alt="" class="Logo">
+                   
                     <div class="botao">
                         <ul class="nav_list">
                             <li class="nav_item">
@@ -51,7 +54,7 @@
     <main class="main-container">
         <div class="main_nome-logo">
             <section class="main_texto-logo">
-                <div>
+                <div class="home_texto">
                     <h2 class="subtitulo">Hello!</h2>
                     <h1 class="titulo">Eu sou <span>Igor Machado, </span>Desenvolvedor Front-end</h1>
                     <p class="paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate earum modi
@@ -62,64 +65,96 @@
                         <div class="main_botao">
                             <a href="#">jrebferrf</a>
                         </div>
-
                         <a href="#">
                             <img src="image/facebook-circle-logo-24 (1).png" alt="">
                         </a>
-
                         <a href="#">
                             <img src="image/github-logo-24.png" alt="">
                         </a>
-
                         <a href="#">
                             <img src="image/linkedin-logo-24.png" alt="">
                         </a>
-
                     </div>
-                </div>                
-                    <img src="https://avatars.githubusercontent.com/u/117872151?v=4" alt="foto de Igor" class="igor">                
+                </div>
+                <img src="https://avatars.githubusercontent.com/u/117872151?v=4" alt="foto de Igor" class="igor">
             </section>
         </div>
         <div class="main_sobre">
-        <section>
-            <h1 class="Sobr">Sobre</h1>
-            <div>
-                <div class="fotoigor">
-                    <img src="" alt="igor de logo">
+            <section>
+                <h1 class="Sobr"><span>Sobre</span> mim</h1>
+                <div>
+                    <div class="fotoigor">
+                        <img src="" alt="igor de logo">
+                    </div>
+                    <article>
+                        <h2 class="sobre-nome">Eu sou Igor Machado</h2>
+                        <h4 class="sob">Desenvolvedor Front-end</h4>
+                        <p class="sob">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo expedita voluptas odio
+                            quisquam ullam, nam porro voluptatem officia </p>
+                    </article>
                 </div>
-                <article>
-                    <h2>Eu sou Igor Machado</h2>
-                    <h5>Desenvolvedor Front-end</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo expedita voluptas odio
-                        quisquam ullam, nam porro voluptatem officia </p>
-                </article>
-            </div>
-        </section>
+            </section>
         </div>
         <div class="main_servico">
-        <section class="main_servi_texto">
-            <h1 class="Servi">Serviço</h1>
-            <article class="area_servi">
-                <div class="web_dev">
-                    <div class="anel_verde">
-                        <img src="image/laptop-regular-24.png" alt="" id="regular">
+            <section class="main_servi_texto">
+                <h1 class="Servi"><span>Meu</span> Serviço</h1>
+                <article class="area_servi">
+                    <div class="web_dev">
+                        <div class="anel_verde">
+                            <img src="image/laptop-regular-24.png" alt="" id="regular">
+                        </div>
+                        <h4 class="servi_subtitulo">Desenvolvimento Web</h4>
+                        <p class="servi_paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi magni
+                            reprehenderit voluptate nobis magnam fugiat</p>
                     </div>
-                    <h5 class="servi_subtitulo">Desenvolvimento Web</h5>
-                    <p class="servi_paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi magni reprehenderit voluptate nobis magnam fugiat</p>
-                </div>
-                <div class="des_res_web">
-                    <div class="anel_verde">
-                        <img src="image/devices-regular-24.png" alt="" id="regular">
+                    <div class="des_res_web">
+                        <div class="anel_verde">
+                            <img src="image/devices-regular-24.png" alt="" id="regular">
+                        </div>
+                        <h4 class="servi_subtitulo">Design Responsivo da Web</h4>
+                        <p class="servi_paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                            repellat autem pariatur quidem necessitatibus</p>
                     </div>
-                    <h5 class="servi_subtitulo">Design Responsivo da Web</h5>
-                    <p class="servi_paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repellat autem pariatur quidem necessitatibus</p>
-                </div>
-            </article>
-        </section>
+                </article>
+            </section>
         </div>
-        <div>
+        <div class="main_projeto">
             <section>
-                <h1>Projeto</h1>
+                <h1 class="Proj"><span>Meus</span> Projeto</h1>
+                <article class="proj_quadro">
+                    <figure class="projeto_logo">
+                        <img class="cloneSpotify"
+                            src="https://private-user-images.githubusercontent.com/117872151/300304431-2bead832-4fa0-4efa-9b7f-a2b4ecf89f57.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDgwOTk5NDIsIm5iZiI6MTcwODA5OTY0MiwicGF0aCI6Ii8xMTc4NzIxNTEvMzAwMzA0NDMxLTJiZWFkODMyLTRmYTAtNGVmYS05YjdmLWEyYjRlY2Y4OWY1Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxNlQxNjA3MjJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yN2FiOWNiZmE5MzY2Y2I4ZGNlODUwNjkzYmRiNjg3MDNhN2I4NzJiNDFjYTkyMWRhYWE0OGJhNWQ5YTlhMWM3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.B1pLf4krVv4ZpXo8w8_nmYNVEYuDT3gO7t-lykjGclA"
+                            alt="Clone do Spotify">
+                        <h4 class="proj_subtitulo">Clone do Spotify</h4>
+                        <p class="proj_paragrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <div class="button_verde">
+                            <a href="#" class="link-proj">
+                                <span>Link Projeto</span>
+                            </a>
+                        </div>
+                    </figure>
+                    <figure class="projeto_logo">
+                        <img class="cloneSpotify" src="image/link-social.png" alt="Clone do Spotify">
+                        <h4 class="proj_subtitulo">Perfil de linke social</h4>
+                        <p class="proj_paragrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <div class="button_verde">
+                            <a href="#" class="link-proj">
+                                <span>Link Projeto</span>
+                            </a>
+                        </div>
+                    </figure>
+                    <figure class="projeto_logo">
+                        <img class="cloneSpotify" src="https://josevictoremiliano.github.io/meuportifolio/img/breve.png" alt="Clone do Spotify">
+                        <h4 class="proj_subtitulo">Em Breve</h4>
+                        <p class="proj_paragrafo">Em Breve.</p>
+                        <div class="button_verde">
+                            <a href="#" class="link-proj">
+                                <span>Em Breve</span>
+                            </a>
+                        </div>
+                    </figure>
+                </article>
             </section>
         </div>
     </main>
